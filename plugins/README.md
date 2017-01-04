@@ -1,10 +1,8 @@
 # ##################################################
 # Repository:    MicroStrategy
-# Sub Folder:    central_headers
+# Sub Folder:    plugins
 #
-# Description:   This sub folder contains 
-#                
-#                
+# Description:   This sub folder contains any plugins created for MSTR
 #
 # Modifications:
 # Date         Modified By          Description
@@ -14,28 +12,22 @@
 
 
 # ##################################################
-# Folder structure
+# plugins
 # ##################################################
-  - central_headers
-    - header_template.html
-      -- this file is a template for use in an HTML Container in a MSTR Document
+plugin_name           mstr_version  created_date  modified_date  description
+--------------------  ------------  ------------  -------------  ------------------------------
+WebVIHideAllObjects   10.2          2017-01-04    2017-01-04     Hides the "All Objects" tab from Visual Insight Dashboards
 
 # ##################################################
 # HOW TO
 # ##################################################
-  1. Create MSTR Document to serve as the header (note the size!)
-  2. Create MSTR Document (VI would work too)
-  3. Add an HTML Container the same size as your document from step 1
-  4. Paste the header_template.html contents into the HTML Container and update the URL appropriately
-  5. Run the document and confirm everything loaded up OK
-
-# ##################################################
-# Version
-# ##################################################
-Currently written for MSTR v10.2
+  1. copy folder into web server's plugins folder
+  2. restart web server
+  3. confirm / test!!
 
 # ##################################################
 # Reference
 # ##################################################
-
-https://lw.microstrategy.com/msdz/MSDL/940/docs/mergedProjects/websdk/topics/bestpract/BP_Define_page_layout.htm
+plugin_name           reference
+--------------------  ------------------------------
+WebVIHideAllObjects   https://community.microstrategy.com/t5/SDK/TN317174-How-to-Hide-the-quot-Browse-All-Objects-quot-and-quot/ta-p/317174
