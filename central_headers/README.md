@@ -33,3 +33,9 @@
 # Version
 # ##################################################
 Currently written for MSTR v10.2
+
+# ##################################################
+# Reference
+# ##################################################
+
+https://lw.microstrategy.com/msdz/MSDL/940/docs/mergedProjects/websdk/topics/bestpract/BP_Define_page_layout.htm
